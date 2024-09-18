@@ -19,7 +19,7 @@ jobs:
     name: "Update"
     runs-on: ubuntu-latest
     env:
-      MODEL: sienna
+      MODEL: grandhighlander
       ZIPCODE: ${{ vars.ZIPCODE }}
       DISTANCE: ${{ vars.DISTANCE }}
     steps:
