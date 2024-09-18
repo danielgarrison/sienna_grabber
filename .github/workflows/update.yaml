@@ -21,7 +21,7 @@ jobs:
     env:
       MODEL: sienna
       ZIPCODE: 66952
-      DISTANCE: 2000
+      DISTANCE: 200
     steps:
       - name: Clone repo
         uses: actions/checkout@v4
