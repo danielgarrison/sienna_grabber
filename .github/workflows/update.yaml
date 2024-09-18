@@ -20,8 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MODEL: grandhighlander
-      ZIPCODE: ${{ vars.ZIPCODE }}
-      DISTANCE: ${{ vars.DISTANCE }}
+      ZIPCODE: 66952
+      DISTANCE: 2000
     steps:
       - name: Clone repo
         uses: actions/checkout@v4
