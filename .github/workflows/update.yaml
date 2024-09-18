@@ -19,9 +19,9 @@ jobs:
     name: "Update"
     runs-on: ubuntu-latest
     env:
-      MODEL: grandhighlander
-      ZIPCODE: 66952
-      DISTANCE: 2000
+      MODEL: sienna
+      ZIPCODE: ${{ vars.ZIPCODE }}
+      DISTANCE: ${{ vars.DISTANCE }}
     steps:
       - name: Clone repo
         uses: actions/checkout@v4
